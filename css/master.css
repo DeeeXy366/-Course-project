@@ -1,0 +1,115 @@
+.body{background-color: black}
+.indentation{margin-top: 50px;}
+.name{cursor: pointer}
+.price{
+  margin-top: 20px;
+  font-size: 37px;
+  color: #59a6f6;
+}
+.tel{
+  float: right;
+}
+footer{
+  color: black;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  left: 0;
+  bottom: 0;
+}
+
+.btn-num{
+  background-color: #59a6f6;
+}
+.product-list{
+  background-color: #F9F9F9;
+  margin-left: 15px;
+  margin-top: 15px;
+  transition: 1s;
+}
+.product-list:hover{
+  background-color: #EEF7FF;
+}
+.delp{
+  position: relative;
+  margin-right: 5px;
+  color: red;
+  transition: 0.4s;
+}
+.delp:hover{
+  color: black;
+}
+.change{
+  position: relative;
+  font-size: 17px;
+  margin-top: 30px;
+  margin-right: -20px;
+}
+.product-list-add{
+  background-color: #F9F9F9;
+  margin-left: 15px;
+  margin-top: 15px;
+  transition: 1s;
+}
+.product-list-add:hover{
+    background-color: #F6FDFF;
+}
+.product-add{
+  margin-top: 50px;
+  border-radius: 2px;
+  border: #43a9bf solid 1px;
+  transition: 1s;
+}
+.product-add:hover{
+  border-radius: 28px;
+  box-shadow:0 0 10px #43a9bf;
+}
+.block{
+  margin: 15px;
+}
+.block-p{
+  margin: -15px;
+  margin-top: 10px;
+}
+.hidden-btn{
+  opacity: 0;
+  margin-top:-60px;
+}
+.add-btn{
+  margin-bottom: -8px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  transition: 0.6s;
+}
+.price-btn{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  transition: 0.6s;
+}
+.task{
+  margin-top: 50px;
+  border-radius: 2px;
+  border: #0a80ff solid 1px;
+  transition: 0.6s;
+}
+.task:hover{
+  border-radius: 28px;
+  box-shadow:0 0 10px #0a80ff;
+}
+.task:hover .price-btn{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.task:hover .add-btn{
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
